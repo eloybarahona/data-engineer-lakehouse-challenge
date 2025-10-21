@@ -1,0 +1,21 @@
+dataset: customers
+description: "Dataset de clientes para prueba técnica"
+format: csv
+target_format: parquet
+partition_by: created_at
+schema:
+  - name: customer_id
+    type: string
+  - name: name
+    type: string
+  - name: email
+    type: string
+  - name: created_at
+    type: date
+  - name: country
+    type: string
+  - name: amount
+    type: double
+access_level:
+  tag_key: stage
+  tag_value: analytics

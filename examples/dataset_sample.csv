@@ -1,0 +1,5 @@
+customer_id,name,email,created_at,country,amount
+1,John Doe,john@example.com,2024-05-01,US,120.5
+2,Ana Ruiz,ana@example.com,2024-05-03,PE,95.0
+3,Luis Perez,luis@example.com,2024-05-03,CL,250.3
+4,Maria López,maria@example.com,2024-05-04,PE,80.0
