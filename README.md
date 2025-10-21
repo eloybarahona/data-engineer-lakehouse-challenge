@@ -6,6 +6,7 @@ Procesar un archivo **CSV** que llega a un sistema de almacenamiento, de modo qu
 
 * Pueda ser consultado desde una consola interactiva.
 * Se genere automáticamente el esquema a partir de su estructura.
+* Se parametrice el nombre de la tabla generada.
 * Se transforme el CSV a un formato columnar eficiente (por ejemplo, Parquet), valorando opciones que soporten versionado o actualizaciones (principalmente Hudi).
 * Se apliquen mecanismos de control de acceso a nivel de datos.
 
@@ -50,5 +51,5 @@ lakehouse-challenge/
 
 1. Publica tu solución en un repositorio público con el nombre **lakehouse-challenge** (o equivalente).
 2. Incluye todas las carpetas necesarias (`iac/`, `src/`, `docs/`, `examples/`).
-3. En el `README.md` explica los pasos para desplegar y ejecutar la prueba.
+3. En el `docs/` contiene material importante a considerar.
 4. Envía el enlace del repositorio junto con una breve descripción de tu enfoque técnico.
